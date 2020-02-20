@@ -1409,7 +1409,7 @@ General Styles - FlexSlider
   font-size: 60px;
 }
   @media (max-width: 768px) {
-    #testimonial-bg-textt h2 {
+    #testimonial-bg-text h2 {
       font-size: 35px;
     }
   }
