@@ -181,6 +181,7 @@ a,
 .module-small {
   position: relative;
   padding: 100px 0;
+  padding-bottom: 0px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -1258,11 +1259,11 @@ General Styles - FlexSlider
 }
 @media (max-width: 640px) {
   #cover-video {
-    /* display: none; */
-    height: 100vh;
-    width: 100%;
-    object-fit: cover;
-    position: center;
+    display: none;
+    /* height: 100vh; */
+    /* width: 100%; */
+    /* object-fit: cover; */
+    /* position: center; */
   }
 
   #cover-img {
@@ -1294,6 +1295,11 @@ General Styles - FlexSlider
   font-weight: 200;
   font-size: 60px;
 }
+  @media (max-width: 768px) {
+    #about-bg-text h2 {
+      font-size: 35px;
+    }
+  }
 #about-text {
   padding-bottom: 0;
 }
@@ -1349,7 +1355,7 @@ General Styles - FlexSlider
 }
   @media (max-width: 768px) {
     #team-bg-text h2 {
-      font-size: 40px;
+      font-size: 35px;
     }
   }
 #team .img {
@@ -1402,6 +1408,11 @@ General Styles - FlexSlider
   font-weight: 200;
   font-size: 60px;
 }
+  @media (max-width: 768px) {
+    #testimonial-bg-textt h2 {
+      font-size: 35px;
+    }
+  }
 #testimony p {
   font-weight: 400;
   font-size: 22px;
